@@ -3,6 +3,7 @@ package com.zk.ioc.lookup;/**
  */
 
 import com.zk.ioc.domain.User;
+import com.zk.ioc.repository.UserRepository;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
