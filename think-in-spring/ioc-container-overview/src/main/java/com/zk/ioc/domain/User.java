@@ -38,4 +38,9 @@ public class User {
                 ", name='" + name + '\'' +
                 '}';
     }
+
+    public static User createUsrer() {
+        return new User();
+    }
 }
+
